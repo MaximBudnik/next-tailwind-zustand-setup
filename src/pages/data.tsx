@@ -12,8 +12,8 @@ export default function Data() {
     console.log(todoData);
 
     return (
-        <div className="bg-gray-100">
-            <div className="p-16 grid gap-16 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        <div className="bg-gray-100 min-h-screen">
+            <div className="p-16 grid gap-10 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                 {todoData.map((item) => (
                     <div
                         key={item.id}
